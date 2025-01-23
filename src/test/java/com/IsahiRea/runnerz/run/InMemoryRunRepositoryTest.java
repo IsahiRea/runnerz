@@ -38,4 +38,5 @@ public class InMemoryRunRepositoryTest {
         List<Run> runs = repository.findAll();
         assertEquals(2, runs.size(), "Should find 2 runs");
     }
+
 }
